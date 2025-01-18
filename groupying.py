@@ -50,8 +50,8 @@ def save_grouped_images(image_paths, labels, output_folder):
 
 # Main Program
 if __name__ == "__main__":
-    input_folder = "D:\projects\Grouping Images\Dataset"
-    output_folder = "D:\projects\Grouping Images\groups"
+    input_folder = "Dataset"
+    output_folder = "grouped_images"
     n_clusters = 5  # Set the number of groups/clusters
     
     # Load images
